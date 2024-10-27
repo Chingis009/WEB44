@@ -1,0 +1,131 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #007bff;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: all 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #007bff;
+    background-color: #fff;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #e6f7ff;
+    border-radius: 5px;
+    color: #333;
+}
+
+
+form div {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 10px;
+}
+
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+fieldset legend {
+    font-weight: bold;
+    color: #007bff;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    input, select, textarea {
+        font-size: 0.95rem;
+    }
+}
